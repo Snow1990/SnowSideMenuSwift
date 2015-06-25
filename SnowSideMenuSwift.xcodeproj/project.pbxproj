@@ -13,6 +13,8 @@
 		8743D58A1B3BDFAD009CCD0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8743D5891B3BDFAD009CCD0F /* Images.xcassets */; };
 		8743D58D1B3BDFAD009CCD0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8743D58B1B3BDFAD009CCD0F /* LaunchScreen.xib */; };
 		8743D5991B3BDFAD009CCD0F /* SnowSideMenuSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8743D5981B3BDFAD009CCD0F /* SnowSideMenuSwiftTests.swift */; };
+		8743D5A51B3BE07D009CCD0F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8743D5A31B3BE07D009CCD0F /* SideMenuTableViewController.swift */; };
+		8743D5A61B3BE07D009CCD0F /* SnowSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8743D5A41B3BE07D009CCD0F /* SnowSideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8743D5921B3BDFAD009CCD0F /* SnowSideMenuSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowSideMenuSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8743D5971B3BDFAD009CCD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8743D5981B3BDFAD009CCD0F /* SnowSideMenuSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSideMenuSwiftTests.swift; sourceTree = "<group>"; };
+		8743D5A31B3BE07D009CCD0F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		8743D5A41B3BE07D009CCD0F /* SnowSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowSideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		8743D57F1B3BDFAD009CCD0F /* SnowSideMenuSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8743D5A31B3BE07D009CCD0F /* SideMenuTableViewController.swift */,
+				8743D5A41B3BE07D009CCD0F /* SnowSideMenu.swift */,
 				8743D5A21B3BDFB5009CCD0F /* example */,
 			);
 			path = SnowSideMenuSwift;
@@ -221,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8743D5851B3BDFAD009CCD0F /* ViewController.swift in Sources */,
+				8743D5A51B3BE07D009CCD0F /* SideMenuTableViewController.swift in Sources */,
+				8743D5A61B3BE07D009CCD0F /* SnowSideMenu.swift in Sources */,
 				8743D5831B3BDFAD009CCD0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +427,7 @@
 				8743D59E1B3BDFAD009CCD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8743D59F1B3BDFAD009CCD0F /* Build configuration list for PBXNativeTarget "SnowSideMenuSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +436,7 @@
 				8743D5A11B3BDFAD009CCD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
