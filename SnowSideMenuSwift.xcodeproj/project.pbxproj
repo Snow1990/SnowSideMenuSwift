@@ -77,12 +77,7 @@
 		8743D57F1B3BDFAD009CCD0F /* SnowSideMenuSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8743D5821B3BDFAD009CCD0F /* AppDelegate.swift */,
-				8743D5841B3BDFAD009CCD0F /* ViewController.swift */,
-				8743D5861B3BDFAD009CCD0F /* Main.storyboard */,
-				8743D5891B3BDFAD009CCD0F /* Images.xcassets */,
-				8743D58B1B3BDFAD009CCD0F /* LaunchScreen.xib */,
-				8743D5801B3BDFAD009CCD0F /* Supporting Files */,
+				8743D5A21B3BDFB5009CCD0F /* example */,
 			);
 			path = SnowSideMenuSwift;
 			sourceTree = "<group>";
@@ -110,6 +105,19 @@
 				8743D5971B3BDFAD009CCD0F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8743D5A21B3BDFB5009CCD0F /* example */ = {
+			isa = PBXGroup;
+			children = (
+				8743D5821B3BDFAD009CCD0F /* AppDelegate.swift */,
+				8743D5841B3BDFAD009CCD0F /* ViewController.swift */,
+				8743D5861B3BDFAD009CCD0F /* Main.storyboard */,
+				8743D5891B3BDFAD009CCD0F /* Images.xcassets */,
+				8743D58B1B3BDFAD009CCD0F /* LaunchScreen.xib */,
+				8743D5801B3BDFAD009CCD0F /* Supporting Files */,
+			);
+			name = example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
